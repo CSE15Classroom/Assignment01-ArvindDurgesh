@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery</title>
+  <style>
+    h1{
+      color: rgb(202, 48, 48);
+      text-align: center;
+      border: 2px solid blanchedalmond;
+    }
+    h2{
+      color: rgb(98, 213, 22);
+    }
+
+    .gallery{
+      width: 95%;
+      height: 400px;
+      margin: 10px auto;
+      border: 2px solid black;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: auto;
+      padding: 10px;
+    }
+
+    .inner{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .box{
+      width: 140px;
+      height: 100px;
+      border-radius: 8px;
+      overflow: hidden;          
+      border: 1px solid #3ca9e0;
+      cursor: pointer;
+    }
+
+    .box img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;        
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <h1>Gallery</h1>
+
+  <h2> 10-20 Jan 2026</h2>
+  <div class="gallery">
+    <div class="inner">
+      <div class="box">
+        <img src="download (2).jpg" alt="Car in autumn road">
+      </div>
+      <div class="box">
+        <img src="download (3).jpg" alt="Sunset on water">
+      </div>
+      <div class="box">
+        <img src="download (4).jpg" alt="Flowers and sky">
+      </div>
+      <div class="box">
+        <img src="download (5).jpg" alt="Abstract cosmic art">
+      </div>
+      <div class="box">
+        <img src="download (6).jpg" alt="Green neon collage">
+      </div>
+    </div>
+  </div>
+
+  <h2>21-30 jan 2026</h2>
+  <div class="gallery">
+    <div class="inner">
+      <div class="box"><img src="download (2).jpg" alt=""></div>
+      <div class="box"><img src="download (3).jpg" alt=""></div>
+      <div class="box"><img src="download (4).jpg" alt=""></div>
+      <div class="box"><img src="download (5).jpg" alt=""></div>
+      <div class="box"><img src="download (6).jpg" alt=""></div>
+    </div>
+  </div>
+
+  <h2>1-10 feb 2026</h2>
+  <div class="gallery">
+    <div class="inner">
+      <div class="box"><img src="download (2).jpg" alt=""></div>
+      <div class="box"><img src="download (3).jpg" alt=""></div>
+      <div class="box"><img src="download (4).jpg" alt=""></div>
+      <div class="box"><img src="download (5).jpg" alt=""></div>
+      <div class="box"><img src="download (6).jpg" alt=""></div>
+    </div>
+  </div>
+
+</body>
+</html>
